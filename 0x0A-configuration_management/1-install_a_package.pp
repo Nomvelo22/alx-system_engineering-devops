@@ -1,7 +1,7 @@
-# installs puppet-lint package
+#!/usr/bin/env bash
+# Puppet script that install flask
 
-package {'flask':
-  ensure   => '2.1.0',
-  name     => 'flask',
-  provider => 'pip3'
+package { 'flask':
+	ensure => '2.1.0',
+	provider => 'pip3',
 }
